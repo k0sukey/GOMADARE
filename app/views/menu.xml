@@ -1,0 +1,86 @@
+<Alloy>
+	<TableView id="menu" class="container">
+		<TableViewSection>
+			<TableViewRow id="attention">
+				<Widget class="icon iconleft" icon="fa-bullhorn" src="be.k0suke.fontawesome"/>
+				<Label class="title">注目</Label>
+				<Widget class="icon iconright iconarrow" icon="fa-chevron-right" src="be.k0suke.fontawesome"/>
+				<View class="separator"/>
+			</TableViewRow>
+			<TableViewRow id="column" class="lockrow">
+				<Widget class="icon iconleft lockcolor" icon="fa-file-text-o" src="be.k0suke.fontawesome"/>
+				<Label class="title lockcolor">コラム</Label>
+				<Widget class="icon iconright" icon="fa-lock" src="be.k0suke.fontawesome"/>
+				<View class="separator"/>
+			</TableViewRow>
+			<TableViewRow id="favorite" class="lockrow">
+				<Widget class="icon iconleft lockcolor" icon="fa-star" src="be.k0suke.fontawesome"/>
+				<Label class="title lockcolor">お気に入り</Label>
+				<Widget class="icon iconright" icon="fa-lock" src="be.k0suke.fontawesome"/>
+				<View class="separator"/>
+			</TableViewRow>
+			<TableViewRow id="curators">
+				<Widget class="icon iconleft" icon="fa-users" src="be.k0suke.fontawesome"/>
+				<Label class="title">キュレーター一覧</Label>
+				<Widget class="icon iconright iconarrow" icon="fa-chevron-right" src="be.k0suke.fontawesome"/>
+				<View class="separator"/>
+			</TableViewRow>
+			<FooterView>
+				<ScrollView>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+					<View class="curator" onClick="curator">
+						<Widget class="iconcurator" icon="fa-user" src="be.k0suke.fontawesome"/>
+					</View>
+				</ScrollView>
+			</FooterView>
+		</TableViewSection>
+		<TableViewSection>
+			<TableViewRow id="setting">
+				<Widget class="icon iconleft" icon="fa-cog" src="be.k0suke.fontawesome"/>
+				<Label class="title">設定</Label>
+				<Widget class="icon iconright iconarrow" icon="fa-chevron-right" src="be.k0suke.fontawesome"/>
+				<View class="separator"/>
+			</TableViewRow>
+			<TableViewRow id="notice">
+				<Widget class="icon iconleft" icon="fa-comment" src="be.k0suke.fontawesome"/>
+				<Label class="title">お知らせ</Label>
+				<Widget class="icon iconright iconarrow" icon="fa-chevron-right" src="be.k0suke.fontawesome"/>
+				<View class="separator"/>
+			</TableViewRow>
+		</TableViewSection>
+		<TableViewSection>
+			<TableViewRow id="login">
+				<Widget class="icon iconleft" icon="fa-key" src="be.k0suke.fontawesome"/>
+				<Label class="title">ログイン</Label>
+				<Widget class="icon iconright iconarrow" icon="fa-chevron-right" src="be.k0suke.fontawesome"/>
+				<View class="separator"/>
+			</TableViewRow>
+		</TableViewSection>
+	</TableView>
+</Alloy>

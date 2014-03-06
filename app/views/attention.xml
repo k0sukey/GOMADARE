@@ -1,0 +1,17 @@
+<Alloy>
+	<ListView id="attentions" class="container" defaultItemTemplate="attention">
+		<Templates>
+			<ItemTemplate id="attention" name="attention">
+				<ImageView bindId="photo" id="photo"/>
+				<View id="shadow"/>
+				<View bindId="curator" id="curator"/>
+				<Label bindId="name" id="name"/>
+				<Label bindId="title" id="title"/>
+				<View id="belt"/>
+				<Label bindId="message" id="message"/>
+				<Label bindId="location" id="location"/>
+			</ItemTemplate>
+		</Templates>
+		<ListSection/>
+	</ListView>
+</Alloy>

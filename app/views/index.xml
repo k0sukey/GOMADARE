@@ -1,0 +1,24 @@
+<Alloy>
+	<Widget id="drawer" src="nl.fokkezb.drawer">
+		<Window platform="ios" role="leftWindow">
+			<Require src="menu" id="menu"/>
+		</Window>
+		<View platform="android" role="leftWindow">
+			<Require src="menu" id="menu"/>
+		</View>
+
+		<NavigationWindow platform="ios" role="centerWindow">
+			<Window id="main" title="注目">
+				<LeftNavButton>
+					<View onClick="toggle">
+						<Widget icon="fa-bars" src="be.k0suke.fontawesome"/>
+					</View>
+				</LeftNavButton>
+				<Require src="attention"/>
+			</Window>
+		</NavigationWindow>
+		<View platform="android" role="centerWindow">
+			<Label>I am center</Label>
+		</View>
+	</Widget>
+</Alloy>

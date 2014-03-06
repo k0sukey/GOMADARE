@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"nl.fokkezb.drawer":"*","be.k0suke.fontawesome":"*"}};

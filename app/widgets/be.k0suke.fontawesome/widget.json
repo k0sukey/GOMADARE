@@ -1,0 +1,13 @@
+{
+	"id": "be.k0suke.fontawesome",
+	"name": "be.k0suke.fontawesome",
+	"description" : "Font Awesome charcode wrapping widget",
+	"author": "Kosuke Isobe",
+	"version": "1.0",
+	"copyright":"Copyright (c) Kosuke Isobe",
+	"license":"MIT",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"Iconicfont,FontAwesome",
+	"platforms":"android,ios,mobileweb"
+}

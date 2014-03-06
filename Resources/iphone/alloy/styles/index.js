@@ -1,0 +1,1 @@
+module.exports = [{"isApi":true,"priority":1000.0013,"key":"Window","style":{backgroundColor:"#fff",}},{"isId":true,"priority":100000.0012,"key":"drawer","style":{openDrawerGestureMode:"OPEN_MODE_ALL",closeDrawerGestureMode:"CLOSE_MODE_ALL",leftDrawerWidth:270,}}];

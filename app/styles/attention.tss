@@ -1,0 +1,110 @@
+'ListView': {
+	separatorStyle: Ti.UI.iPhone.ListViewSeparatorStyle.NONE
+}
+'#attention': {
+	height: '300dp'
+}
+'#photo': {
+	top: '0dp',
+	right: '0dp',
+	bottom: '0dp',
+	left: '0dp',
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}
+'#shadow': {
+	top: '0dp',
+	right: '0dp',
+	left: '0dp',
+	width: Ti.UI.FILL,
+	height: '60dp',
+	backgroundColor: '#000',
+	opacity: 0.2
+}
+'#curator': {
+	top: '10dp',
+	right: '10dp',
+	left: '10dp',
+	width: '40dp',
+	height: '40dp',
+	backgroundColor: '#eee',
+	borderRadius: 20
+}
+'#name': {
+	top: '10dp',
+	right: '10dp',
+	left: '60dp',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	color: '#fff',
+	shadowColor: '#000',
+	shadowOffset: {
+		x: 0.0,
+		y: 1.0
+	},
+	font: {
+		fontSize: '14dp',
+		fontWeight: 'bold'
+	},
+	touchEnabled: false
+}
+'#title': {
+	top: '34dp',
+	right: '10dp',
+	left: '60dp',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	color: '#fff',
+	shadowColor: '#000',
+	shadowOffset: {
+		x: 0.0,
+		y: 1.0
+	},
+	font: {
+		fontSize: '12dp'
+	},
+	touchEnabled: false
+}
+'#belt': {
+	bottom: '0dp',
+	right: '0dp',
+	left: '0dp',
+	width: Ti.UI.FILL,
+	height: '60dp',
+	backgroundColor: '#000',
+	opacity: 0.8
+}
+'#message': {
+	right: '10dp',
+	bottom: '34dp',
+	left: '10dp',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	color: '#fff',
+	shadowColor: '#000',
+	shadowOffset: {
+		x: 0.0,
+		y: 1.0
+	},
+	font: {
+		fontSize: '14dp',
+		fontWeight: 'bold'
+	},
+	touchEnabled: false
+}
+'#location': {
+	bottom: '10dp',
+	left: '10dp',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	color: '#fff',
+	shadowColor: '#000',
+	shadowOffset: {
+		x: 0.0,
+		y: 1.0
+	},
+	font: {
+		fontSize: '12dp'
+	},
+	touchEnabled: false
+}
